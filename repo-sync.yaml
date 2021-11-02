@@ -11,5 +11,8 @@ spec:
     revision: HEAD
     branch: main
     dir: "configsync/namespace-5"
-    auth: none
+    auth: token
+    secretRef:
+      name: git-creds
+
 
