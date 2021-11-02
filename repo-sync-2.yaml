@@ -4,7 +4,7 @@ metadata:
   name: repo-sync
   namespace: test
   annotations:
-    configsync.gke.io/cluster-name-selector: support-191
+    configsync.gke.io/cluster-name-selector: support-190
 spec:
   git:
     repo: https://github.com/config-sync-examples/mono-wet.git
