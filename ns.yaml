@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   annotations:
-    configsync.gke.io/cluster-name-selector: support-191
+    configsync.gke.io/cluster-name-selector: support-190,support-191
   name: test
 spec:
   finalizers:

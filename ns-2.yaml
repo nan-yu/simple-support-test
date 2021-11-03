@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  annotations:
-    configsync.gke.io/cluster-name-selector: support-190
-  name: test
-spec:
-  finalizers:
-  - kubernetes
